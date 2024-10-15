@@ -1,25 +1,25 @@
 body {
  font-family: Arial, sans-serif;
- margin: 0;
- padding: 20px;
+ margin: 0; /* Rimuove i margini dal body */
+ padding: 0; /* Rimuove il padding dal body */
  display: grid;
- grid-template-rows: 1fr auto;
- flex-direction: column;
+ grid-template-rows: auto 1fr auto; /* Modifica l'ordine per il footer */
  background-image: url('img/sfondo1.jpg');
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
 }
 
-html{
+html {
  height: 100%;
  margin: 0;
 }
 
-main{
+main {
  display: flex;
  flex-direction: column;
  gap: 20px;
+ padding: 20px; /* Aggiungi padding qui se necessario */
 }
 
 .round-box {
@@ -34,6 +34,7 @@ main{
  color: black; /* Colore del testo */
  padding: 15px; /* Spazio interno */
  text-align: center; /* Centra il testo */
+ width: 100%; /* Assicura che il banner occupi tutta la larghezza */
 }
 
 .banner ul {
@@ -62,4 +63,5 @@ footer {
  color: white;
  text-align: center;
  padding: 10px 0;
+ width: 100%; /* Assicura che il footer occupi tutta la larghezza */
 }
