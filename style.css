@@ -8,24 +8,6 @@ body {
  background-attachment: fixed;
 }
 
-
-main {
- margin-top: 20px;
-}
-
-h1 {
- color: #333;
-}
-
-h2 {
- color: #555;
-}
-
-p {
- color: #555;
- line-height: 1.6;
-}
-
 footer {
  background-color: #333;
  color: white;
