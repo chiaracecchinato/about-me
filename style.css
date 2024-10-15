@@ -29,6 +29,34 @@ main{
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
 }
 
+.banner {
+ background-color: #007BFF; /* Colore di sfondo del banner */
+ color: white; /* Colore del testo */
+ padding: 15px; /* Spazio interno */
+ text-align: center; /* Centra il testo */
+}
+
+.banner ul {
+ list-style-type: none; /* Rimuove i punti dall'elenco */
+ margin: 0; /* Rimuove margini */
+ padding: 0; /* Rimuove padding */
+}
+
+.banner ul li {
+ display: inline; /* Mostra gli elementi in linea */
+ margin: 0 15px; /* Spazio tra i link */
+}
+
+.banner a {
+ color: white; /* Colore dei link */
+ text-decoration: none; /* Rimuove la sottolineatura */
+ font-weight: bold; /* Testo in grassetto */
+}
+
+.banner a:hover {
+ text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
+
 footer {
  background-color: #333;
  color: white;
