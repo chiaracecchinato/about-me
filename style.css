@@ -30,8 +30,8 @@ main{
 }
 
 .banner {
- background-color: #007BFF; /* Colore di sfondo del banner */
- color: white; /* Colore del testo */
+ background-color: white; /* Colore di sfondo del banner */
+ color: black; /* Colore del testo */
  padding: 15px; /* Spazio interno */
  text-align: center; /* Centra il testo */
 }
