@@ -8,12 +8,6 @@ body {
  background-attachment: fixed;
 }
 
-header {
- background-color: #333;
- color: white;
- padding: 10px 0;
- text-align: center;
-}
 
 main {
  margin-top: 20px;
