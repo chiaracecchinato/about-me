@@ -30,8 +30,8 @@ main {
 }
 
 .round-box:hover {
- background-color: #ac0282b4; /* Cambia il colore di sfondo al passaggio del mouse */
- transform: scale(1.05); /* Ingrossa leggermente la box */
+ background-color: #ad1587ca; /* Cambia il colore di sfondo al passaggio del mouse */
+ transform: scale(1.02); /* Ingrossa leggermente la box */
  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta l'ombreggiatura al passaggio del mouse */
 }
 
