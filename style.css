@@ -2,10 +2,21 @@ body {
  font-family: Arial, sans-serif;
  margin: 0;
  padding: 20px;
+ height: 100%;
+ flex-direction: column;
  background-image: url('img/sfondo1.jpg');
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
+}
+
+html{
+ height: 100%;
+ margin: 0;
+}
+
+main{
+ flex-direction: column;
 }
 
 footer {
@@ -13,5 +24,5 @@ footer {
  color: white;
  text-align: center;
  padding: 10px 0;
- margin-top: 20px;
+ margin-top: 10px;
 }
