@@ -23,14 +23,14 @@ main {
 }
 
 .round-box {
- background-color: #fff; /* Colore di sfondo dei quadrati tondi */
+ background-color: #ac028188; /* Colore di sfondo dei quadrati tondi */
  border-radius: 20px; /* Arrotonda gli angoli */
  padding: 20px; /* Padding interno */
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
 }
 
 .banner {
- background-color: white; /* Colore di sfondo del banner */
+ background-color: rgba(27, 125, 2, 0.64); /* Colore di sfondo del banner */
  color: black; /* Colore del testo */
  padding: 15px; /* Spazio interno */
  text-align: center; /* Centra il testo */
