@@ -17,7 +17,16 @@ html{
 }
 
 main{
- flex: 1;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.round-box {
+ background-color: #fff; /* Colore di sfondo dei quadrati tondi */
+ border-radius: 20px; /* Arrotonda gli angoli */
+ padding: 20px; /* Padding interno */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
 }
 
 footer {
