@@ -1,14 +1,14 @@
 body {
  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
- margin: 0; /* Rimuove i margini dal body */
- padding: 0; /* Rimuove il padding dal body */
+ margin: 0;
+ padding: 0;
  display: grid;
- grid-template-rows: auto 1fr auto; /* Modifica l'ordine per il footer */
+ grid-template-rows: auto 1fr auto;
  background-image: url('img/sfondo1.jpg');
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 2vw;
+ font-size: 2vw; /* Grandezza testo in base alla larghezza della viewport */
 }
 
 html {
@@ -20,144 +20,95 @@ main {
  display: flex;
  flex-direction: column;
  gap: 20px;
- padding: 20px; /* Aggiungi padding qui se necessario */
- width: 100%; /* Assicura che main occupi tutta la larghezza */
- box-sizing: border-box; /* Include padding e border nel calcolo della larghezza */
+ padding: 5vw; /* Padding responsivo */
+ width: 100%;
+ box-sizing: border-box;
 }
 
 h2 {
  width: 100%;
- text-align: center; /* Puoi cambiare in left o right se preferisci */
+ text-align: center;
  color: rgb(0, 0, 0);
- margin: 0; /* Rimuove il margine */
- font-size: 4vw; /* Imposta la grandezza del font */
+ margin: 0;
+ font-size: 4vw; /* Testo adattabile */
 }
 
 .round-box {
- background-color: #ac028188; /* Colore di sfondo dei quadrati tondi */
- border-radius: 20px; /* Arrotonda gli angoli */
- padding: 20px; /* Padding interno */
+ background-color: #ac028188;
+ border-radius: 20px;
+ padding: 2vw;
  display: flex;
- align-items: center; /* Centra verticalmente gli elementi all'interno */
- margin: 20px auto; /* Margine automatico per centrare la box */
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
+ align-items: center;
+ margin: 2vw auto;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
- width: 100%; /* Imposta una larghezza percentuale */
- max-width: 800px; /* Larghezza massima */
+ width: 100%;
+ max-width: 90vw; /* Responsivo rispetto alla viewport */
 }
 
 .inner-round-box {
  background-color: #b2025788;
  border-radius: 15px;
  flex: 1;
- padding: 15px;
- margin: 0 10px;
+ padding: 2vw;
+ margin: 0 2vw;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .inner-round-box:hover {
- background-color: rgb(173, 21, 135); /* Cambia il colore di sfondo al passaggio del mouse */
- transform: scale(1.02); /* Ingrossa leggermente la box */
- box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta l'ombreggiatura al passaggio del mouse */
+ background-color: rgb(173, 21, 135);
+ transform: scale(1.02);
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Stile specifico per la sezione sinistra */
-.left {
- background-color: #b2025788; /* Colore specifico per la sezione sinistra */
-}
-
-/* Stile specifico per la sezione destra */
-.right {
- background-color: #b2025788; /* Colore specifico per la sezione destra */
-}
-
-.round-box:hover {
- background-color: #ad1587ca; /* Cambia il colore di sfondo al passaggio del mouse */
- transform: scale(1.02); /* Ingrossa leggermente la box */
- box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta l'ombreggiatura al passaggio del mouse */
-}
-
-.banner {
- background-color: rgba(27, 125, 2, 0.64); /* Colore di sfondo del banner */
- color: black; /* Colore del testo */
- padding: 15px; /* Spazio interno */
- text-align: center; /* Centra il testo */
- width: 100%; /* Assicura che il banner occupi tutta la larghezza */
-}
-
-.banner ul {
- list-style-type: none; /* Rimuove i punti dall'elenco */
- margin: 0; /* Rimuove margini */
- padding: 0; /* Rimuove padding */
-}
-
-.banner ul li {
- display: inline; /* Mostra gli elementi in linea */
- margin: 0 15px; /* Spazio tra i link */
-}
-
-.banner a {
- color: rgba(255, 255, 255, 0.89); /* Colore dei link */
- text-decoration: none; /* Rimuove la sottolineatura */
- font-weight: bold; /* Testo in grassetto */
-}
-
-.banner a:hover {
- text-decoration: underline; /* Sottolinea al passaggio del mouse */
-}
-
-.position-center {
- display: flex;
- justify-content: center;
- align-items: center;
-}
-
-#sezione3 p {
- margin: 0; /* Rimuove il margine tra i paragrafi */
- line-height: 1.5; /* Gestisce l'altezza delle righe, cambiabile a piacimento */
-}
-
-.about-container {
- display: flex; /* Imposta un layout flessibile */
- align-items: flex-start; /* Allinea verticalmente l'immagine e il testo */
- margin-bottom: 20px;
-}
-
-.profile-pic {
- width: 200px; /* Imposta la larghezza della foto */
- height: 200px; /* Mantiene le proporzioni */
- border-radius: 100%; /* Rende la foto circolare */
- margin-right: 20px; /* Spazio tra l'immagine e il testo */
-}
-
-.about-text {
- flex: 1; /* Permette al testo di occupare lo spazio rimanente */
-}
-
+/* Layout flessibile delle icone di contatto */
 .contact-icons {
  display: flex;
- gap: 20px; /* Spazio tra le icone */
- justify-content: center; /* Centra le icone */
+ gap: 5vw;
+ justify-content: center;
 }
 
 .contact-icons a {
- text-decoration: none; /* Rimuove la sottolineatura dai link */
- color: white; /* Colore delle icone */
+ text-decoration: none;
+ color: white;
 }
 
 .contact-icons a:hover {
- color: #00bfff; /* Cambia il colore al passaggio del mouse */
+ color: #00bfff;
 }
 
 .contact-icons i {
- font-size: 24px; /* Dimensione delle icone */
+ font-size: 4vw; /* Dimensione delle icone basata sulla larghezza viewport */
 }
-
 
 footer {
  background-color: #33333367;
  color: white;
  text-align: center;
- padding: 10px 0;
- width: 100%; /* Assicura che il footer occupi tutta la larghezza */
+ padding: 2vw 0;
+ width: 100%;
+}
+
+/* Media Queries per dispositivi più piccoli */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 6vw; /* Titolo più piccolo su schermi piccoli */
+  }
+
+  .round-box {
+    flex-direction: column; /* Disposizione verticale per schermi piccoli */
+  }
+
+  .inner-round-box {
+    margin: 10px 0; /* Margine verticale per evitare sovrapposizioni */
+  }
+
+  .profile-pic {
+    width: 150px; /* Riduce la dimensione dell'immagine profilo */
+    height: 150px;
+  }
+
+  .contact-icons i {
+    font-size: 5vw; /* Le icone diventano più piccole su schermi piccoli */
+  }
 }
