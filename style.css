@@ -107,6 +107,7 @@ main {
  align-items: flex-start; /* Allinea verticalmente l'immagine e il testo */
  margin-bottom: 20px;
  text-align: center;
+ align-items:center;
 }
 
 .profile-pic {
