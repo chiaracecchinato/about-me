@@ -37,8 +37,6 @@ main {
  max-width: 800px; /* Larghezza massima */
 }
 
-
-
 .inner-round-box {
  background-color: #b2025788;
  border-radius: 15px;
@@ -46,6 +44,12 @@ main {
  padding: 15px;
  margin: 0 10px;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inner-round-box:hover {
+ background-color: rgb(173, 21, 135); /* Cambia il colore di sfondo al passaggio del mouse */
+ transform: scale(1.02); /* Ingrossa leggermente la box */
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta l'ombreggiatura al passaggio del mouse */
 }
 
 /* Stile specifico per la sezione sinistra */
