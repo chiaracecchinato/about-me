@@ -8,7 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 2vw; /* Grandezza testo in base alla larghezza della viewport */
+ font-size: 2vw; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
@@ -20,7 +20,7 @@ main {
  display: flex;
  flex-direction: column;
  gap: 20px;
- padding: 5vw; /* Padding responsivo */
+ padding: 20px;
  width: 100%;
  box-sizing: border-box;
 }
@@ -30,41 +30,98 @@ h2 {
  text-align: center;
  color: rgb(0, 0, 0);
  margin: 0;
- font-size: 4vw; /* Testo adattabile */
+ font-size: 2vw; /* Testo flessibile */
 }
 
 .round-box {
  background-color: #ac028188;
  border-radius: 20px;
- padding: 2vw;
+ padding: 20px;
  display: flex;
  align-items: center;
- margin: 2vw auto;
+ margin: 20px auto;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
  width: 100%;
- max-width: 90vw; /* Responsivo rispetto alla viewport */
+ max-width: 800px;
+ box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
 
 .inner-round-box {
  background-color: #b2025788;
  border-radius: 15px;
  flex: 1;
- padding: 2vw;
- margin: 0 2vw;
+ padding: 15px;
+ margin: 0 10px;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.inner-round-box:hover {
- background-color: rgb(173, 21, 135);
+.round-box:hover {
+ background-color: #ad1587ca;
  transform: scale(1.02);
  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Layout flessibile delle icone di contatto */
+.banner {
+ background-color: rgba(27, 125, 2, 0.64);
+ color: black;
+ padding: 15px;
+ text-align: center;
+ width: 100%;
+}
+
+.banner ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+.banner ul li {
+ display: inline;
+ margin: 0 15px;
+}
+
+.banner a {
+ color: rgba(255, 255, 255, 0.89);
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.banner a:hover {
+ text-decoration: underline;
+}
+
+.position-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#sezione3 p {
+ margin: 0;
+ line-height: 1.5;
+}
+
+.about-container {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 20px;
+}
+
+.profile-pic {
+ width: 200px;
+ height: 200px;
+ border-radius: 100%;
+ margin-right: 20px;
+}
+
+.about-text {
+ flex: 1;
+}
+
 .contact-icons {
  display: flex;
- gap: 5vw;
+ gap: 20px;
  justify-content: center;
 }
 
@@ -78,37 +135,33 @@ h2 {
 }
 
 .contact-icons i {
- font-size: 4vw; /* Dimensione delle icone basata sulla larghezza viewport */
+ font-size: 24px;
 }
 
 footer {
  background-color: #33333367;
  color: white;
  text-align: center;
- padding: 2vw 0;
+ padding: 10px 0;
  width: 100%;
 }
 
-/* Media Queries per dispositivi più piccoli */
+/* Media query per schermi più piccoli */
 @media (max-width: 768px) {
+  body {
+    font-size: 3vw; /* Ingrandisce il testo su schermi piccoli */
+  }
+
   h2 {
-    font-size: 6vw; /* Titolo più piccolo su schermi piccoli */
+    font-size: 4vw; /* Ridimensiona il titolo per schermi piccoli */
   }
 
   .round-box {
-    flex-direction: column; /* Disposizione verticale per schermi piccoli */
-  }
-
-  .inner-round-box {
-    margin: 10px 0; /* Margine verticale per evitare sovrapposizioni */
+    flex-direction: column; /* Le box diventano verticali su schermi più piccoli */
   }
 
   .profile-pic {
-    width: 150px; /* Riduce la dimensione dell'immagine profilo */
+    width: 150px;
     height: 150px;
-  }
-
-  .contact-icons i {
-    font-size: 5vw; /* Le icone diventano più piccole su schermi piccoli */
   }
 }
