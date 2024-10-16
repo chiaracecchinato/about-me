@@ -128,6 +128,26 @@ main {
  flex: 1; /* Permette al testo di occupare lo spazio rimanente */
 }
 
+.contact-icons {
+ display: flex;
+ gap: 20px; /* Spazio tra le icone */
+ justify-content: center; /* Centra le icone */
+}
+
+.contact-icons a {
+ text-decoration: none; /* Rimuove la sottolineatura dai link */
+ color: white; /* Colore delle icone */
+}
+
+.contact-icons a:hover {
+ color: #00bfff; /* Cambia il colore al passaggio del mouse */
+}
+
+.contact-icons i {
+ font-size: 24px; /* Dimensione delle icone */
+}
+
+
 footer {
  background-color: #33333367;
  color: white;
