@@ -42,7 +42,8 @@ h2 {
  margin: 20px auto;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
- width: 100%;
+ width: 90vw;
+ justify-content: center;
  box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
 
