@@ -29,8 +29,8 @@ h2 {
  width: 100%;
  text-align: center;
  color: rgb(0, 0, 0);
- margin: 0;
- font-size: 2vw; /* Testo flessibile */
+ margin: 20px 0;
+ font-size: 3vw; /* Testo flessibile */
 }
 
 .round-box {
