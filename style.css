@@ -20,6 +20,8 @@ main {
  flex-direction: column;
  gap: 20px;
  padding: 20px; /* Aggiungi padding qui se necessario */
+ width: 100%; /* Assicura che main occupi tutta la larghezza */
+ box-sizing: border-box; /* Include padding e border nel calcolo della larghezza */
 }
 
 .round-box {
