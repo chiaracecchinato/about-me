@@ -29,6 +29,13 @@ main {
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
 }
 
+.inner-round-box {
+ background-color: #b2025788;
+ border-radius: 15px;
+ padding: 15px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .round-box:hover {
  background-color: #ad1587ca; /* Cambia il colore di sfondo al passaggio del mouse */
  transform: scale(1.02); /* Ingrossa leggermente la box */
@@ -62,6 +69,12 @@ main {
 
 .banner a:hover {
  text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
+
+.position-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 footer {
