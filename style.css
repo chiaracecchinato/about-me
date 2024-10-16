@@ -55,7 +55,7 @@ main {
 }
 
 .banner a {
- color: rgba(0, 34, 97, 0.89); /* Colore dei link */
+ color: rgba(255, 255, 255, 0.89); /* Colore dei link */
  text-decoration: none; /* Rimuove la sottolineatura */
  font-weight: bold; /* Testo in grassetto */
 }
