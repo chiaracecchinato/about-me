@@ -32,7 +32,7 @@ main {
  margin: 20px auto; /* Margine automatico per centrare la box */
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
  gap: 20px;
- width: 90%; /* Imposta una larghezza percentuale */
+ width: 100%; /* Imposta una larghezza percentuale */
  max-width: 800px; /* Larghezza massima */
 }
 
@@ -109,8 +109,8 @@ main {
 }
 
 .profile-pic {
- width: 150px; /* Imposta la larghezza della foto */
- height: auto; /* Mantiene le proporzioni */
+ width: 100px; /* Imposta la larghezza della foto */
+ height: 100px; /* Mantiene le proporzioni */
  border-radius: 100%; /* Rende la foto circolare */
  margin-right: 20px; /* Spazio tra l'immagine e il testo */
 }
