@@ -8,7 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 2vw; /* Rende il testo flessibile in base alla larghezza della finestra */
+ font-size: 1.5vw; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
@@ -36,10 +36,10 @@ h2 {
 .round-box {
  background-color: #ac028188;
  border-radius: 20px;
- padding: 20px;
+ padding: 30px;
  display: flex;
  align-items: center;
- margin: 20px auto;
+ margin: 30px auto;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
  width: 90vw;
