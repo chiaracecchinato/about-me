@@ -44,12 +44,12 @@ main {
 
 /* Stile specifico per la sezione sinistra */
 .left {
- background-color: #e3f2fd; /* Colore specifico per la sezione sinistra */
+ background-color: #b2025788; /* Colore specifico per la sezione sinistra */
 }
 
 /* Stile specifico per la sezione destra */
 .right {
- background-color: #fff9c4; /* Colore specifico per la sezione destra */
+ background-color: #b2020288; /* Colore specifico per la sezione destra */
 }
 
 .round-box:hover {
