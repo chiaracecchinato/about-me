@@ -106,6 +106,7 @@ main {
  display: flex; /* Imposta un layout flessibile */
  align-items: flex-start; /* Allinea verticalmente l'immagine e il testo */
  margin-bottom: 20px;
+ text-align: center;
 }
 
 .profile-pic {
