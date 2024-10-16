@@ -29,11 +29,13 @@ main {
  border-radius: 20px; /* Arrotonda gli angoli */
  padding: 20px; /* Padding interno */
  display: flex;
- /*justify-content: space-between;*/
- margin: 20px 0;
+ margin: 20px auto; /* Margine automatico per centrare la box */
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
  gap: 20px;
+ width: 90%; /* Imposta una larghezza percentuale */
+ max-width: 800px; /* Larghezza massima */
 }
+
 
 .inner-round-box {
  background-color: #b2025788;
