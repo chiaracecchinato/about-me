@@ -28,7 +28,7 @@ main {
  padding: 20px; /* Padding interno */
  display: flex;
  /*justify-content: space-between;*/
- margin: 20px 0;
+ /*margin: 20px 0;*/
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
  gap: 20px;
 }
@@ -49,7 +49,7 @@ main {
 
 /* Stile specifico per la sezione destra */
 .right {
- background-color: #b2020288; /* Colore specifico per la sezione destra */
+ background-color: #b2025788; /* Colore specifico per la sezione destra */
 }
 
 .round-box:hover {
