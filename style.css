@@ -98,6 +98,13 @@ main {
  line-height: 1.5; /* Gestisce l'altezza delle righe, cambiabile a piacimento */
 }
 
+.profile-pic {
+ width: 150px; /* Imposta la larghezza della foto */
+ height: auto; /* Mantiene le proporzioni */
+ border-radius: 50%; /* Rende la foto circolare */
+ display: block; /* Assicura che la foto sia un blocco */
+ margin: 10px auto; /* Centra la foto orizzontalmente */
+}
 
 footer {
  background-color: #33333367;
