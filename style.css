@@ -1,5 +1,5 @@
 body {
- font-family: Arial, sans-serif;
+ font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
  margin: 0; /* Rimuove i margini dal body */
  padding: 0; /* Rimuove il padding dal body */
  display: grid;
@@ -8,6 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
+ font-size: 2vw;
 }
 
 html {
