@@ -30,7 +30,7 @@ h2 {
  text-align: center; /* Puoi cambiare in left o right se preferisci */
  color: rgb(0, 0, 0);
  margin: 0; /* Rimuove il margine */
- font-size: 2.5em; /* Imposta la grandezza del font */
+ font-size: 4vw; /* Imposta la grandezza del font */
 }
 
 .round-box {
