@@ -107,7 +107,7 @@ main {
 .profile-pic {
  width: 150px; /* Imposta la larghezza della foto */
  height: auto; /* Mantiene le proporzioni */
- border-radius: 70%; /* Rende la foto circolare */
+ border-radius: 100%; /* Rende la foto circolare */
  margin-right: 20px; /* Spazio tra l'immagine e il testo */
 }
 
