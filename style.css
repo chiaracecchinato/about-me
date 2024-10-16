@@ -26,7 +26,11 @@ main {
  background-color: #ac028188; /* Colore di sfondo dei quadrati tondi */
  border-radius: 20px; /* Arrotonda gli angoli */
  padding: 20px; /* Padding interno */
+ display: flex;
+ justify-content: space-between;
+ margin: 20px 0;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
+ gap: 20px;
 }
 
 .inner-round-box {
