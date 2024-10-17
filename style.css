@@ -65,6 +65,11 @@ h2 {
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.inner-round-box p {
+ margin-bottom: 10px; /* Spazio sotto le intestazioni */
+ font-weight: bold; /* Evidenzia le intestazioni */
+}
+
 .inner-round-box:hover {
  background-color: #b20234a4;
  border-radius: 15px;
