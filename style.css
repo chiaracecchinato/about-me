@@ -98,11 +98,6 @@ h2 {
  align-items: center;
 }
 
-#sezione3 p {
- margin: 0;
- line-height: 1.5;
-}
-
 .about-container {
  display: flex;
  align-items: flex-start;
@@ -137,6 +132,10 @@ h2 {
 
 .contact-icons i {
  font-size: 24px;
+}
+
+#contatti {
+ text-align: center; /* Centra tutto il testo nella sezione Contatti */
 }
 
 footer {
