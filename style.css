@@ -116,11 +116,11 @@ h2 {
  align-items: center;
 }
 
-.about-container {
+/*.about-container {
  display: flex;
  align-items: flex-start;
  margin-bottom: 20px;
-}
+}*/
 
 .profile-pic {
  width: 200px;
