@@ -167,7 +167,7 @@ footer {
 }
 
 /* Media query per schermi più piccoli */
-@media (max-width: 48em){
+@media (max-width: 48em) { /* circa 768px */
  body {
    font-size: 1.1rem; /* Ingrandisce il testo su schermi piccoli */
  }
@@ -185,4 +185,14 @@ footer {
    width: 150px;
    height: 150px;
  }
+
+ .banner {
+   font-size: 1rem; /* Adatta la dimensione del font nel banner */
+   padding: 10px; /* Riduci il padding nel banner */
+ }
+
+ .banner ul li {
+   margin: 0 8px; /* Riduci il margine tra i link nel banner */
+ }
 }
+
