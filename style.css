@@ -8,7 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 1.2rem; /* Rende il testo flessibile in base alla larghezza della finestra */
+ font-size: 1.7rem; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
