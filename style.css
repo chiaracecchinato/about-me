@@ -1,14 +1,15 @@
 body {
  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
  margin: 0;
- padding: 0;
+ padding: 20px;
+ gap: 20px;
  display: grid;
- grid-template-rows: auto 1fr auto;
+ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
  background-image: url('img/sfondo1.jpg');
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 1.7rem; /* Rende il testo flessibile in base alla larghezza della finestra */
+ font-size: 1.5rem; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
@@ -38,7 +39,8 @@ h2 {
  background-color: #ac028188;
  border-radius: 20px;
  padding: 30px;
- display: flex;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);;
  align-items: center;
  justify-items: center;
  margin: 30px auto;
