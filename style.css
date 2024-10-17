@@ -50,6 +50,7 @@ h2 {
 .inner-round-box {
  background-color: #b2025788;
  border-radius: 15px;
+ display: flex;
  flex: 1;
  padding: 15px;
  margin: 0 10px;
