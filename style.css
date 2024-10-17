@@ -8,7 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 1.5vw; /* Rende il testo flessibile in base alla larghezza della finestra */
+ font-size: 1.2rem; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
@@ -30,7 +30,7 @@ h2 {
  text-align: center;
  color: rgb(0, 0, 0);
  margin: 20px 0;
- font-size: 3vw; /* Testo flessibile */
+ font-size: 2rem; /* Testo flessibile */
 }
 
 .round-box {
@@ -42,7 +42,7 @@ h2 {
  margin: 30px auto;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
- width: 90vw;
+ width: 95%;
  justify-content: center;
  box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
@@ -150,7 +150,7 @@ footer {
 /* Media query per schermi più piccoli */
 @media (max-width: 768px) {
   body {
-    font-size: 3vw; /* Ingrandisce il testo su schermi piccoli */
+    font-size: 2rem; /* Ingrandisce il testo su schermi piccoli */
   }
 
   h2 {
@@ -159,7 +159,8 @@ footer {
 
   .round-box {
     flex-direction: column; /* Le box diventano verticali su schermi più piccoli */
-  }
+    padding: 1.5rem;
+   }
 
   .profile-pic {
     width: 150px;
