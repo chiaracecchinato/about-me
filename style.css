@@ -29,7 +29,8 @@ h2 {
  max-width: 25%;
  text-align: left;
  color: rgb(0, 0, 0);
- margin: 20px auto;
+ margin: 20px 0;
+ padding-left: 10px;
  font-size: 2rem; /* Testo flessibile */
 }
 
