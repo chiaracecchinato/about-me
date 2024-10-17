@@ -18,7 +18,7 @@ html {
 
 main {
  display: grid; /* Utilizza la griglia per il contenuto principale */
- grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); /* Ottimizza il layout per righe */
+ /*grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); /* Ottimizza il layout per righe */
  gap: 20px; /* Aggiungi spazio tra le righe */
  padding: 20px;
  width: 100%;
@@ -42,7 +42,7 @@ h2 {
  align-items: center;
  justify-content: center; /* Centra il contenuto */
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- gap: 20px;
+ /*gap: 20px;*/
  width: 95%;
  box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
