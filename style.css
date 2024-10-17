@@ -1,3 +1,9 @@
+* {
+ box-sizing: border-box; /* Include padding e border nella larghezza totale */
+ margin: 0; /* Rimuovi margini di default */
+ padding: 0; /* Rimuovi padding di default */
+}
+
 body {
  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
  margin: 0;
@@ -172,7 +178,7 @@ footer {
 
  .round-box {
    flex-direction: column; /* Le box diventano verticali su schermi più piccoli */
-   padding: 1.5rem;
+   padding: 1rem;
  }
 
  .profile-pic {
