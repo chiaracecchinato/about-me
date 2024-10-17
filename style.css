@@ -8,7 +8,7 @@ body {
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
- font-size: 1.5rem; /* Rende il testo flessibile in base alla larghezza della finestra */
+ font-size: 1.1rem; /* Rende il testo flessibile in base alla larghezza della finestra */
 }
 
 html {
@@ -31,7 +31,7 @@ h2 {
  color: rgb(0, 0, 0);
  margin: 20px 0;
  padding-left: 10px;
- font-size: 2rem; /* Testo flessibile */
+ font-size: 1.5rem; /* Testo flessibile */
 }
 
 .round-box {
@@ -157,7 +157,7 @@ footer {
  color: white;
  text-align: center;
  padding: 10px 0;
- width: 100%;
+ width: flex;
 }
 
 /* Media query per schermi più piccoli */
