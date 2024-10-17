@@ -29,7 +29,7 @@ h2 {
  max-width: 100%; /* Riempie la larghezza della riga */
  text-align: left;
  color: rgb(0, 0, 0);
- margin: 20px 10px;
+ margin: 20px 25px;
  padding-left: 10px;
  font-size: 1.5rem; /* Testo flessibile */
 }
@@ -161,7 +161,7 @@ footer {
 }
 
 /* Media query per schermi più piccoli */
-@media (max-width: 768px) {
+@media (max-width: 48em){
  body {
    font-size: 1.1rem; /* Ingrandisce il testo su schermi piccoli */
  }
