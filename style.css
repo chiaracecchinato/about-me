@@ -39,7 +39,8 @@ h2 {
  border-radius: 20px;
  padding: 30px;
  display: flex;
- align-items: justify;
+ align-items: center;
+ justify-items: center;
  margin: 30px auto;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  gap: 20px;
