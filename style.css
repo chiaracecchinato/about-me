@@ -129,9 +129,10 @@ h2 {
 
 .contact-icons {
  display: flex;
- gap: 20px;
- text-align: center;
- justify-content: center;
+ flex-direction: column; /* Dispone i link uno sopra l'altro */
+ align-items: center; /* Centra i contenuti */
+ gap: 10px; /* Aggiunge spazio tra i contatti */
+ text-align: center; /* Centra il testo all'interno */
 }
 
 .contact-icons a {
