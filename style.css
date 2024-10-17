@@ -35,17 +35,17 @@ h2 {
 }
 
 .round-box {
- background-color: #ac028188;
- border-radius: 20px;
- padding: 30px;
- display: flex;
- align-items: center;
- justify-content: center; /* Centra il contenuto */
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- width: 80%; /* Puoi anche provare a usare una larghezza fissa come 600px */
- max-width: 800px; /* Limita la larghezza massima per grandi schermi */
- margin: 20px auto; /* Aggiungi margine automatico ai lati per centrare */
- box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
+  background-color: #ac028188;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra il contenuto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%; /* Puoi anche provare a usare una larghezza fissa come 600px */
+  /*max-width: 800px; /* Limita la larghezza massima per grandi schermi */
+  margin: 20px auto; /* Aggiungi margine automatico ai lati per centrare */
+  box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
 
 
