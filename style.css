@@ -57,6 +57,16 @@ h2 {
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.inner-round-box:hover {
+ background-color: #b20234a4;
+ border-radius: 15px;
+ display: flex;
+ flex: 1;
+ padding: 15px;
+ margin: 0 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .round-box:hover {
  background-color: #ad1587ca;
  transform: scale(1.02);
