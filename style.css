@@ -73,6 +73,7 @@ h2 {
  padding: 15px;
  margin: 0 10px;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-bottom: 15px;
 }
 
 .round-box:hover {
