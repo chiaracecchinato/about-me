@@ -215,46 +215,40 @@ footer {
  }
 }
 
-/*
-/* Media query per visualizzazione desktop 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) and (min-resolution: 2dppx) {
  body {
-   font-size: 1.2rem; /* Aumenta la dimensione del testo per schermi più grandi 
-   margin: 0 auto; /* Centra il contenuto 
-   max-width: 1200px; /* Imposta una larghezza massima 
+   font-size: 1.1rem; /* Mantiene la dimensione del testo simile alla visualizzazione mobile */
+   margin: 0 auto; /* Centra il contenuto */
+   max-width: 100%; /* Usa tutta la larghezza disponibile */
  }
 
  .round-box {
-   width: 80%; /* Restringi leggermente la larghezza delle box
-   max-width: 1000px; /* Limita la larghezza massima delle box 
-   padding: 40px; /* Aumenta il padding per riempire meglio lo schermo
- }
-
- .profile-pic {
-   width: 250px; /* Dimensione immagine profilo per desktop 
-   height: 250px;
-   margin: 0 20px; /* Aggiungi margine intorno all'immagine 
+   width: 90%; /* Adatta la larghezza delle box per schermi più grandi */
+   max-width: 900px; /* Limita la larghezza massima */
+   padding: 20px; /* Aumenta il padding */
  }
 
  .about-container {
-   flex-direction: row; /* Disposizione orizzontale in modalità desktop 
+   flex-direction: row; /* Disposizione orizzontale, immagine a sinistra e testo a destra */
    align-items: center;
  }
 
- .inner-round-box {
-   flex-direction: row; /* Allinea le competenze in riga 
-   justify-content: space-between; /* Spazia gli elementi
-   padding: 20px; /* Aumenta il padding per un layout più largo 
+ .profile-pic {
+   width: 180px; /* Dimensioni ridotte ma più grandi rispetto alla modalità mobile */
+   height: 180px;
  }
 
  .banner {
-   font-size: 1.3rem; /* Aumenta la dimensione del testo nel banner 
-   padding: 20px 0; /* Aggiungi più padding al banner
+   font-size: 1.1rem; /* Aumenta leggermente il font nel banner */
+ }
+
+ .inner-round-box {
+   flex-direction: row; /* Allinea i contenuti delle box in riga */
+   padding: 15px;
  }
 
  footer {
-   font-size: 1.1rem; /* Aumenta la dimensione del testo nel footer 
-   padding: 20px;
+   font-size: 1rem; /* Mantenere il footer leggibile */
  }
 }
-*/
+
