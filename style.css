@@ -45,8 +45,9 @@ h2 {
   border-radius: 20px;
   padding: 30px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center; /* Centra il contenuto */
+  justify-content: space-between; /* Centra il contenuto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 95%; /* Puoi anche provare a usare una larghezza fissa come 600px */
   /*max-width: 800px; /* Limita la larghezza massima per grandi schermi */
@@ -60,14 +61,24 @@ h2 {
  border-radius: 15px;
  display: flex;
  flex: 1;
+ flex-direction: column;
  padding: 15px;
  margin: 10px 10px;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.inner-round-box ul {
+ list-style-type: disc; /* Lista puntata */
+ margin-left: 20px; /* Margine a sinistra per separare gli elementi della lista */
+}
+
+.inner-round-box li {
+ margin-bottom: 10px; /* Spazio tra gli elementi della lista */
+}
+
 .inner-round-box p {
+ font-weight: bold;
  margin-bottom: 10px; /* Spazio sotto le intestazioni */
- font-weight: bold; /* Evidenzia le intestazioni */
 }
 
 .inner-round-box:hover {
