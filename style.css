@@ -215,7 +215,7 @@ footer {
  }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) and (min-resolution: 2dppx) {
+@media only screen and (min-width: 64em) and (max-width: 80em) and (min-resolution: 2dppx) {
  body {
    font-size: 1.1rem; /* Mantiene la dimensione del testo simile alla visualizzazione mobile */
    margin: 0 auto; /* Centra il contenuto */
@@ -224,8 +224,8 @@ footer {
 
  .round-box {
    width: 90%; /* Adatta la larghezza delle box per schermi più grandi */
-   max-width: 900px; /* Limita la larghezza massima */
-   padding: 20px; /* Aumenta il padding */
+   max-width: 56.25em; /* Limita la larghezza massima a 900px (56.25em) */
+   padding: 1.25em; /* Aumenta il padding (20px in em) */
  }
 
  .about-container {
@@ -234,8 +234,8 @@ footer {
  }
 
  .profile-pic {
-   width: 180px; /* Dimensioni ridotte ma più grandi rispetto alla modalità mobile */
-   height: 180px;
+   width: 11.25em; /* Dimensioni ridotte, circa 180px in em */
+   height: 11.25em;
  }
 
  .banner {
@@ -244,11 +244,12 @@ footer {
 
  .inner-round-box {
    flex-direction: row; /* Allinea i contenuti delle box in riga */
-   padding: 15px;
+   padding: 0.9375em; /* 15px in em */
  }
 
  footer {
-   font-size: 1rem; /* Mantenere il footer leggibile */
+   font-size: 1rem; /* Mantieni il footer leggibile */
  }
 }
+
 
