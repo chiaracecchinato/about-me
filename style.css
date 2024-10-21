@@ -50,7 +50,7 @@ h2 {
   justify-content: center; /* Centra il contenuto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 95%; /* Puoi anche provare a usare una larghezza fissa come 600px */
-  max-width: 800px; /* Limita la larghezza massima per grandi schermi */
+  /*max-width: 800px; /* Limita la larghezza massima per grandi schermi */
   margin: 20px auto; /* Aggiungi margine automatico ai lati per centrare */
   box-sizing: border-box; /* Assicura che padding sia incluso nel calcolo della larghezza */
 }
@@ -215,3 +215,44 @@ footer {
  }
 }
 
+/* Media query per visualizzazione desktop */
+@media only screen and (min-width: 1024px) {
+ body {
+   font-size: 1.2rem; /* Aumenta la dimensione del testo per schermi più grandi */
+   margin: 0 auto; /* Centra il contenuto */
+   max-width: 1200px; /* Imposta una larghezza massima */
+ }
+
+ .round-box {
+   width: 80%; /* Restringi leggermente la larghezza delle box */
+   max-width: 1000px; /* Limita la larghezza massima delle box */
+   padding: 40px; /* Aumenta il padding per riempire meglio lo schermo */
+ }
+
+ .profile-pic {
+   width: 250px; /* Dimensione immagine profilo per desktop */
+   height: 250px;
+   margin: 0 20px; /* Aggiungi margine intorno all'immagine */
+ }
+
+ .about-container {
+   flex-direction: row; /* Disposizione orizzontale in modalità desktop */
+   align-items: center;
+ }
+
+ .inner-round-box {
+   flex-direction: row; /* Allinea le competenze in riga */
+   justify-content: space-between; /* Spazia gli elementi */
+   padding: 20px; /* Aumenta il padding per un layout più largo */
+ }
+
+ .banner {
+   font-size: 1.3rem; /* Aumenta la dimensione del testo nel banner */
+   padding: 20px 0; /* Aggiungi più padding al banner */
+ }
+
+ footer {
+   font-size: 1.1rem; /* Aumenta la dimensione del testo nel footer */
+   padding: 20px;
+ }
+}
