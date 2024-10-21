@@ -217,39 +217,45 @@ footer {
 
 @media only screen and (min-width: 64em) and (max-width: 80em) and (min-resolution: 2dppx) {
  body {
-   font-size: 1.1rem; /* Mantiene la dimensione del testo simile alla visualizzazione mobile */
-   margin: 0 auto; /* Centra il contenuto */
-   max-width: 100%; /* Usa tutta la larghezza disponibile */
+   font-size: 1.1rem;
+   margin: 0 auto;
+   max-width: 100%;
  }
 
  .round-box {
-   width: 90%; /* Adatta la larghezza delle box per schermi più grandi */
-   max-width: 56.25em; /* Limita la larghezza massima a 900px (56.25em) */
-   padding: 1.25em; /* Aumenta il padding (20px in em) */
- }
-
- .about-container {
-   flex-direction: row; /* Disposizione orizzontale, immagine a sinistra e testo a destra */
+   width: 90%;
+   max-width: 56.25em;
+   padding: 1.25em;
+   display: flex;
+   flex-direction: column; /* Imposta il layout in colonna */
    align-items: center;
  }
 
- .profile-pic {
-   width: 11.25em; /* Dimensioni ridotte, circa 180px in em */
-   height: 11.25em;
+ .about-container {
+   flex-direction: column; /* Disposizione verticale */
+   align-items: center;
+   text-align: center; /* Centra il testo */
  }
 
- .banner {
-   font-size: 1.1rem; /* Aumenta leggermente il font nel banner */
+ .profile-pic {
+   width: 11.25em; /* Dimensioni della foto */
+   height: 11.25em;
+   margin-bottom: 1em; /* Aggiunge uno spazio sotto l'immagine */
  }
 
  .inner-round-box {
-   flex-direction: row; /* Allinea i contenuti delle box in riga */
-   padding: 0.9375em; /* 15px in em */
+   flex-direction: column; /* Le box interne si dispongono in verticale */
+   width: 100%;
+   margin: 1em 0; /* Spazio tra le box */
+ }
+
+ .banner ul {
+   display: flex;
+   flex-direction: column; /* Dispone i link del banner in verticale */
+   align-items: center;
  }
 
  footer {
-   font-size: 1rem; /* Mantieni il footer leggibile */
+   font-size: 1rem;
  }
 }
-
-
