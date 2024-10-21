@@ -45,7 +45,7 @@ h2 {
   border-radius: 20px;
   padding: 30px;
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   align-items: center;
   justify-content: space-between; /* Centra il contenuto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
